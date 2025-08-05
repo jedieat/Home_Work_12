@@ -1,0 +1,5 @@
+﻿  main.cpp
+F:\Project_C++\Модуль 12(Связанные списки)\Home_Work_12\WorkSpace\main.cpp(26,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Project_C++\Модуль 12(Связанные списки)\Home_Work_12\WorkSpace\main.cpp(27,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Project_C++\Модуль 12(Связанные списки)\Home_Work_12\WorkSpace\main.cpp(68,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  WorkSpace.vcxproj -> F:\Project_C++\Модуль 12(Связанные списки)\Home_Work_12\x64\Debug\WorkSpace.exe

@@ -32,7 +32,7 @@ int search(string txt, string pat)
     badCharHeuristic(pat, m, badchar);
 
     int s = 0;
-    while (s <= (n - m)) //
+    while (s <= (n - m)) 
     {
         int j = m - 1;
 
@@ -42,7 +42,10 @@ int search(string txt, string pat)
         if (j < 0) //Если j меньше нуля, значит мы дошли до конца подстроки и нашли подстроку, поэтому мы сразу перемещаем индекс строки :
         {
             cout << "pattern occurs at shift = " << s << endl;
-            counter++;
+            if (s % m == 0 || s == 0)
+            {
+                counter++;
+            }
 
             s += (s + m < n) ? m - badchar[txt[s + m]] : 1;
 
